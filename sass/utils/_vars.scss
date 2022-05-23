@@ -1,0 +1,43 @@
+:root {
+  --title-color: #212121;
+  --hover-color: #2196f3;
+  --text-color: #757575;
+  --background-color-hero-footer: #2f303a;
+  --background-color-main: #ffffff;
+  --bacground-color-image: #f5f4fa;
+  --icon-background: #afb1b8;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  background-color: var(--background-color-main);
+  font-family: Roboto, sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  // после скачивания картинок задать maxwidth 100%
+  // width: 100%;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
