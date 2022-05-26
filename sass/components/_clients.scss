@@ -6,7 +6,12 @@
   color: #212121;
   margin-bottom: 50px;
 }
-
+@media screen and (min-width: 480px) {
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1200px) {
+}
 .clients-list {
   margin: auto;
   display: flex;
@@ -36,5 +41,11 @@
   &:focus {
     fill: var(--hover-color);
     border-color: var(--hover-color);
+  }
+  @media screen and (min-width: 768px) {
+    width: 226px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 170px;
   }
 }
