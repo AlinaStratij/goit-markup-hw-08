@@ -21,16 +21,20 @@
 
   @media screen and (min-width: 768px) {
     width: 354px;
+  }
+  @media screen and (max-width: 1199px) {
     margin-right: 30px;
     &:nth-child(2n) {
       margin-right: 0;
     }
-    // width: calc(100% / 2-30);
-    // padding-right: 30px;
   }
+
   @media screen and (min-width: 1200px) {
     width: 270px;
     margin-bottom: 0;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
 }
 
