@@ -5,11 +5,7 @@
   background-color: var(--background-color-hero-footer);
   padding-top: 60px;
   padding-bottom: 60px;
-  @media screen and (min-width: 480px) {
-    max-width: 480px;
-  }
   @media screen and (min-width: 768px) {
-    max-width: 768px;
     .adress-tablet {
       display: flex;
       justify-content: center;
@@ -17,9 +13,9 @@
     }
   }
   @media screen and (min-width: 1200px) {
-    max-width: 1200px;
     .web__social {
       display: flex;
+      text-align: start;
     }
   }
 }
@@ -111,8 +107,16 @@
 }
 .form {
   margin-top: 60px;
+  @media screen and (min-width: 1200px) {
+    margin-left: 93px;
+  }
 }
-
+// .kkk {
+//   display: flex;
+//   flex-wrap: nowrap;
+//   align-items: baseline;
+//   margin-top: 0;
+// }
 .footer-form__title {
   margin-bottom: 20px;
   font-weight: 700;
