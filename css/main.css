@@ -588,10 +588,12 @@ img {
   background-color: var(--background-color-main);
 }
 
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 768px) {
   .team-list__item {
     width: calc((100% - 60px) / 2);
-    margin: 15px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -923,6 +925,13 @@ img {
   flex-wrap: wrap;
 }
 
+@media screen and (min-width: 768px) {
+  .filter-btn {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .filter-btn__item {
   margin-right: 8px;
   margin-bottom: 15px;
@@ -963,8 +972,7 @@ img {
 }
 
 .portfolio-list {
-  display: flex;
-  flex-direction: column;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -980,8 +988,16 @@ img {
 
 @media screen and (min-width: 768px) {
   .portfolio-list__item {
-    width: calc(100% / 2-30px);
-    margin-left: 30px;
+    width: calc((100% - 60px) / 2);
+  }
+  .portfolio-list__item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio-list__item {
+    width: calc((100% - 90px) / 3);
   }
 }
 
