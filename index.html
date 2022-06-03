@@ -17,7 +17,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
     <link rel="stylesheet" href="./css/main.css" />
     <title>WebStudio</title>
   </head>
@@ -29,7 +28,7 @@
           ><span class="logo__studio">Studio</span>
         </a>
         <nav class="navigation">
-          <button type="button" class="menu-toggle is-open">
+          <button type="button" class="menu-open-btn">
             <svg
               class="menu-btn-icon"
               width="40"
@@ -39,10 +38,6 @@
               <use
                 class="js-open-menu"
                 href="./css/images/symbol-defs.svg#icon-menu_40px1"
-              ></use>
-              <use
-                class="js-close-menu"
-                href="./css/images/symbol-defs.svg#icon-close_40px1"
               ></use>
             </svg>
           </button>
@@ -84,10 +79,23 @@
           </li>
         </ul>
       </div>
-      <div class="js-menu-container is-open">
+      <div class="mob-menu is-hidden">
         <div class="container">
-          <div class="mob-menu-top">
-            <div class="mob-box">
+          
+            <div class="mob-menu-top">
+              <button type="button" class="menu-close-btn">
+            <svg
+              class="menu-btn-icon"
+              width="40"
+              height="40"
+              aria-label="Переключатель мобильного меню"
+            >
+              <use
+                class="js-close-menu"
+                href="./css/images/symbol-defs.svg#icon-close_40px1"
+              ></use>
+            </svg>
+          </button>
               <ul class="mob-navigation list">
                 <li class="mob-navigation__item">
                   <a class="mob-navigation__link link" href="./index.html">
@@ -106,6 +114,7 @@
                 </li>
               </ul>
             </div>
+
             <div class="mob-menu-bottom">
               <ul class="mob-connect list">
                 <li class="mob-connect__item">
@@ -829,6 +838,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
-    <script src="./js/menu.js"></script>
+ <script src="./js/menu.js"></script>
   </body>
 </html>
