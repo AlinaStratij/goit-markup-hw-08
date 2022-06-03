@@ -1,7 +1,4 @@
 /* section "header" */
-.no-scroll {
-  overflow: hidden;
-}
 .header {
   border-bottom: 1px solid #ececec;
   width: 100%;
@@ -163,10 +160,6 @@
   @media screen and(max-width:767px) {
     display: none;
   }
-}
-
-.js-menu-container.is-open {
-  display: block;
 }
 
 .mob-navigation__item {
