@@ -476,14 +476,8 @@ img {
 
 @media screen and (min-width: 768px) {
   .benefits-list__item {
-    width: 354px;
+    width: calc((100% - 60px) / 2);
     margin-right: 30px;
-  }
-  .benefits-list__item:nth-child(n + 3) {
-    margin-bottom: 0;
-  }
-  .benefits-list__item:nth-child(2n) {
-    margin-right: 0;
   }
 }
 
@@ -592,23 +586,17 @@ img {
   .team-list__item {
     width: calc((100% - 60px) / 2);
     margin-right: 30px;
-    display: flex;
-    flex-direction: column;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .team-list__item {
     width: 270px;
-    margin-bottom: 0;
-  }
-  .team-list__item:not(:last-child) {
     margin-right: 30px;
   }
-}
-
-.team-list .team-list__item:last-child {
-  margin-bottom: 0;
+  .team-list__item:last-child {
+    margin-right: 0;
+  }
 }
 
 .team-title {

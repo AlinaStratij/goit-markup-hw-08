@@ -224,27 +224,52 @@
           <ul class="about-list list">
             <li class="about-list__item">
               <div class="about-box">
-                <img src="./images/img1.jpg" alt="написание кода" width="370" />
+                <picture>
+                  <source
+                    srcset="./images/img1.jpg 1x, ./images/img(28)(1).jpg 2x"
+                    media="(min-width:1200px)"
+                  />
+                  <img
+                    src="./images/img1.jpg"
+                    alt="написание кода"
+                    width="370"
+                  />
+                </picture>
+
                 <p class="about-box__text">Десктопные приложения</p>
               </div>
             </li>
             <li class="about-list__item">
               <div class="about-box">
-                <img
-                  src="./images/img2.jpg"
-                  alt="оптимизация сайта с мобильным телефоном"
-                  width="370"
-                />
+                <picture>
+                  <source
+                    srcset="./images/img2.jpg 1x, ./images/img(29)(1).jpg 2x"
+                    media="(min-width:1200px)"
+                  />
+                  <img
+                    src="./images/img2.jpg"
+                    alt="оптимизация сайта с мобильным телефоном"
+                    width="370"
+                  />
+                </picture>
+
                 <p class="about-box__text">Мобильные приложения</p>
               </div>
             </li>
             <li class="about-list__item">
               <div class="about-box">
-                <img
-                  src="./images/img3.jpg"
-                  alt="оформление сайта"
-                  width="370"
-                />
+                <picture>
+                  <source
+                    srcset="./images/img3.jpg 1x, ./images/img(30)(1).jpg 2x"
+                    media="(min-width:1200px)"
+                  />
+                  <img
+                    src="./images/img3.jpg"
+                    alt="оформление сайта"
+                    width="370"
+                  />
+                </picture>
+
                 <p class="about-box__text">Дизайнерские решения</p>
               </div>
             </li>
@@ -484,7 +509,7 @@
               </div>
             </li>
             <li class="team-list__item">
-              <picture class="img">
+              <picture>
                 <source
                   srcset="
                     ./images/mikhailermakov.jpg    1x,
