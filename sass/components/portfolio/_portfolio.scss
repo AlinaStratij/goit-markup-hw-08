@@ -37,7 +37,9 @@
 
 .portfolio-list__link {
   text-decoration: none;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   transition: box-shadow 250ms var(--timing-function);
   &:hover .box-text,
   &:focus .box-text {
@@ -53,6 +55,9 @@
   background: var(--background-color-main);
   border: 1px solid #eeeeee;
   padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 .portfolio-title {
   margin-bottom: 4px;
