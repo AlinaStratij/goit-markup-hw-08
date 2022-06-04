@@ -34,14 +34,8 @@
 .portfolio-list__item:last-child {
   margin-bottom: 0;
 }
-.tehnok {
-  flex-grow: 1;
-}
 
 .portfolio-list__link {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
   text-decoration: none;
   display: block;
   transition: box-shadow 250ms var(--timing-function);
