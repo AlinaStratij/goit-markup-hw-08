@@ -1014,9 +1014,6 @@ img {
 
 .portfolio-list__link {
   text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
   transition: box-shadow 250ms var(--timing-function);
 }
 
