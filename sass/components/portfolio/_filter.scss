@@ -1,5 +1,5 @@
 .filter-btn {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -9,7 +9,9 @@
   }
   &__item {
     margin-right: 8px;
-    margin-bottom: 15px;
+    @media screen and(max-width:767px) {
+      margin-bottom: 15px;
+    }
   }
 }
 
@@ -29,11 +31,6 @@
 
   border: 0px;
   border-radius: 4px;
-  // width: 73px;
-  // height: 38px;
-  // display: inline-block;
-  // justify-content: center;
-  // align-items: center;
 
   &:hover,
   &:focus {

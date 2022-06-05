@@ -8,7 +8,7 @@
   @media screen and (min-width: 768px) {
     .adress-tablet {
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
       align-items: baseline;
     }
   }
@@ -21,9 +21,6 @@
 }
 
 .adress {
-  @media screen and (min-width: 768px) {
-    margin-right: 165px;
-  }
   @media screen and (min-width: 1200px) {
     margin-right: 70px;
   }
@@ -61,7 +58,9 @@
 }
 
 .footer-social {
-  margin-top: 60px;
+  @media screen and(max-width:767px) {
+    margin-top: 60px;
+  }
 }
 
 .footer-social__title {
@@ -111,12 +110,7 @@
     margin-left: 93px;
   }
 }
-// .kkk {
-//   display: flex;
-//   flex-wrap: nowrap;
-//   align-items: baseline;
-//   margin-top: 0;
-// }
+
 .footer-form__title {
   margin-bottom: 20px;
   font-weight: 700;
@@ -129,7 +123,6 @@
 
 .footer-form__input {
   margin-bottom: 30px;
-  // padding-left: 16px;
   width: 100%;
   height: 50px;
   background-color: inherit;

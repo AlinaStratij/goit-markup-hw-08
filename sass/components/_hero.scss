@@ -12,7 +12,6 @@
     url(../css/images/bg-hero-mb.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 480px;
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -24,7 +23,6 @@
   }
 
   @media screen and (min-width: 768px) {
-    max-width: 768px;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
@@ -41,7 +39,7 @@
     }
   }
   @media screen and (min-width: 1200px) {
-    max-width: 1200px;
+    max-width: 1600px;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)

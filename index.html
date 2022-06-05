@@ -97,7 +97,10 @@
             </button>
             <ul class="mob-navigation list">
               <li class="mob-navigation__item">
-                <a class="mob-navigation__link link" href="./index.html">
+                <a
+                  class="mob-navigation__link link menu-current"
+                  href="./index.html"
+                >
                   Студия
                 </a>
               </li>
@@ -443,6 +446,37 @@
               <picture>
                 <source
                   srcset="
+                    ./images/olgarepina.jpg    1x,
+                    ./images/olgarepina-2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/olgarepina-tbl.jpg    1x,
+                    ./images/olgarepina-tbl-2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/olgarepina-mb.jpg    1x,
+                    ./images/olgarepina-mb-2x.jpg 2x
+                  "
+                  media="(min-width:480px)"
+                />
+                <img
+                  srcset="
+                    ./images/olgarepina-mb.jpg    1x,
+                    ./images/olgarepina-mb-2x.jpg 2x
+                  "
+                  src="./images/olgarepina-mb.jpg"
+                  alt="Ольга Репина"
+                />
+              </picture>
+              <!-- <picture>
+                <source
+                  srcset="
                     ./images/nikolaitarasov.jpg    1x,
                     ./images/nikolaitarasov-2x.jpg 2x
                   "
@@ -470,7 +504,7 @@
                   src="./images/nikolaitarasov-mb.jpg"
                   alt="Николай Тарасов"
                 />
-              </picture>
+              </picture> -->
 
               <div class="team-box name__profession">
                 <h3 class="team-box__name">Николай Тарасов</h3>
@@ -519,6 +553,37 @@
               <picture>
                 <source
                   srcset="
+                    ./images/olgarepina.jpg    1x,
+                    ./images/olgarepina-2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/olgarepina-tbl.jpg    1x,
+                    ./images/olgarepina-tbl-2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/olgarepina-mb.jpg    1x,
+                    ./images/olgarepina-mb-2x.jpg 2x
+                  "
+                  media="(min-width:480px)"
+                />
+                <img
+                  srcset="
+                    ./images/olgarepina-mb.jpg    1x,
+                    ./images/olgarepina-mb-2x.jpg 2x
+                  "
+                  src="./images/olgarepina-mb.jpg"
+                  alt="Ольга Репина"
+                />
+              </picture>
+              <!-- <picture>
+                <source
+                  srcset="
                     ./images/mikhailermakov.jpg    1x,
                     ./images/mikhailermakov-2x.jpg 2x
                   "
@@ -546,7 +611,7 @@
                   src="./images/mikhailermakov-mb.jpg"
                   alt="Михаил Ермаков"
                 />
-              </picture>
+              </picture> -->
 
               <div class="team-box name__profession">
                 <h3 class="team-box__name">Михаил Ермаков</h3>
@@ -723,7 +788,7 @@
 
         <div class="footer-form form">
           <p class="footer-form__title">Подпишитесь на рассылку</p>
-          <div class="kkk">
+          <div>
             <input
               type="email"
               class="footer-form__input"
