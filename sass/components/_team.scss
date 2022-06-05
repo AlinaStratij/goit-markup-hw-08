@@ -5,6 +5,7 @@
 .team-list {
   display: flex;
   flex-wrap: wrap;
+  margin: -15px;
 }
 
 .team-list__item {
@@ -19,15 +20,13 @@
 
   @media screen and (min-width: 768px) {
     width: calc((100% - 60px) / 2);
-    margin-right: 30px;
+    margin: 15px;
+    height: 100%;
   }
 
   @media screen and (min-width: 1200px) {
-    width: 270px;
-    margin-right: 30px;
-    &:last-child {
-      margin-right: 0;
-    }
+    width: calc(50% - 30px);
+    margin: 15px;
   }
 }
 

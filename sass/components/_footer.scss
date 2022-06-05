@@ -15,11 +15,17 @@
   @media screen and (min-width: 1200px) {
     .web__social {
       display: flex;
-      text-align: start;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .adress-tablet {
+      display: flex;
+      justify-content: space-around;
+      align-items: baseline;
+      margin-bottom: 60px;
     }
   }
 }
-
 .adress {
   @media screen and (min-width: 1200px) {
     margin-right: 70px;
@@ -105,7 +111,10 @@
   fill: var(--background-color-main);
 }
 .form {
-  margin-top: 60px;
+  @media screen and(max-width: 1199px) {
+    margin-top: 60px;
+  }
+
   @media screen and (min-width: 1200px) {
     margin-left: 93px;
   }
