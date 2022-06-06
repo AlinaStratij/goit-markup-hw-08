@@ -3,9 +3,11 @@
 }
 
 .team-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: -15px;
+  @media screen and(min-width:767px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
 }
 
 .team-list__item {
