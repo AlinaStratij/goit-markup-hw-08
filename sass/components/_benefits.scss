@@ -1,7 +1,10 @@
 .benefits-list {
   display: flex;
   flex-wrap: wrap;
-  margin: -15px;
+  padding-left: 0;
+  @media screen and(min-width:767px) {
+    margin: -15px;
+  }
 }
 
 .icon-box {
@@ -21,12 +24,7 @@
     margin: 15px;
   }
   @media screen and (min-width: 1200px) {
-    width: 270px;
-    margin-right: 30px;
-    margin-bottom: 0;
-    &:last-child {
-      margin-right: 0;
-    }
+    width: calc((100% - 120px) / 4);
   }
 }
 

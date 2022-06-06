@@ -636,13 +636,16 @@
                 </li>
                 <li class="footer-adress__item">
                   <a
-                    class="footer-adress__link link"
+                    class="footer-adress__link link text-color"
                     href="mailto:info@example.com"
                     >info@example.com</a
                   >
                 </li>
                 <li class="footer-adress__item">
-                  <a class="footer-adress__link link" href="tel:+380991111111">
+                  <a
+                    class="footer-adress__link link text-color"
+                    href="tel:+380991111111"
+                  >
                     +38 099 111 11 11</a
                   >
                 </li>
@@ -694,26 +697,25 @@
 
         <div class="footer-form form">
           <p class="footer-form__title">Подпишитесь на рассылку</p>
-           <form>
-            <input
-              type="email"
-              class="footer-form__input"
-              name="user-email"
-              placeholder="E-mail"
-            />
+          <form>
+            <label>
+              <input
+                type="email"
+                class="footer-form__input"
+                name="user-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="button" class="footer-btn">
+              Подписаться
+              <svg class="footer-btn__icon" width="24" height="24">
+                <use href="./css/images/symbol-defs.svg#icon-icon-send1"></use>
+              </svg>
+            </button>
           </form>
-
-          <button type="button" class="footer-btn">
-            Подписаться
-            <svg class="footer-btn__icon" width="24" height="24">
-              <use href="./css/images/symbol-defs.svg#icon-icon-send1"></use>
-            </svg>
-          </button>
-          </div>
         </div>
       </div>
     </footer>
-
   <script src="./js/modal.js"></script>
   <script src="./js/mobile-menu.js"></script>
     </body>

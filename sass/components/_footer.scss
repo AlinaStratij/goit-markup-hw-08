@@ -15,14 +15,13 @@
   @media screen and (min-width: 1200px) {
     .web__social {
       display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
+      align-items: baseline;
+      text-align: start;
     }
     .adress-tablet {
       display: flex;
       justify-content: space-around;
       align-items: baseline;
-      margin-bottom: 60px;
     }
   }
 }
@@ -54,6 +53,9 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--background-color-main);
+}
+.text-color {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-adress__list {
@@ -143,6 +145,7 @@
   }
   @media screen and (min-width: 1200px) {
     width: 358px;
+    margin-bottom: 0;
   }
 }
 .footer-form__input::placeholder {
